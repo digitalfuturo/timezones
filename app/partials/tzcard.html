@@ -1,0 +1,11 @@
+<div class="modal-header tzCardTitle">        
+    <h4 title="Click to Edit" class="modal-title text-primary" ng-disabled="cardTimeZone.value" editable-text="cardTimeZone.value">
+  {{cardTimeZone.value || "(Please select a TimeZone from the list)"}}
+    </h4>
+</div>
+<div class="modal-body">   
+    <!--h5>Offset (in hours): {{cardTimeZone.offset}}</h5-->        
+    <h4 class="text-success" name="date" timer-clock-with-offset="cardTimeZone.offset" format-style="'fullDate'"></h4>
+    <h2 class="tzCardClock text-danger" name="time" timer-clock-with-offset="cardTimeZone.offset" format-style="'mediumTime'"></h2>		
+    <div class="tzCardText">{{cardTimeZone.text || "(No Timezone Selected)"}}</div>        
+</div>    

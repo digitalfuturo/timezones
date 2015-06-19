@@ -1,0 +1,55 @@
+	<h2>Add New Timezone</h2>
+	<div class="row">
+		<div class="col-md-5">    	
+		   <div class="tzSelectList">
+		   		<div class="input-group">
+				  <span class="input-group-addon">@</span>				  
+				  <input type="text" class="form-control" ng-model="tzFilter" placeholder="Enter part of the city or timezone name to narrow list...">	
+				</div>				
+				<select size="13" class=".form-control" ng-model="myTimeZone" ng-options="timezone.text for timezone in tzObject.timezones | filter:tzFilter" ng-change="tzlistChange()">
+					<option style="display:none" value="">Select your desired TimeZone</option>
+				</select>
+			</div>	
+		</div>					
+		<div class="col-md-4">    	
+			<div class="modal-content tzCard">
+				<div time-zone-card="myTimeZone"></div>				
+				<div class="modal-footer">
+					<button ng-disabled="btnDisabled" ng-click="tzAdd()" class="btn btn-primary">Add To List</button>
+				</div>				
+			</div>
+    	</div>
+    </div>
+    <hr class="tzSeparatorBold">	
+    <h2>{{globals.currentUser.name}}'s Timezones</h2>
+    <div class="input-group">
+	  <span class="input-group-addon">@</span>				  
+	  <input type="text" class="form-control" ng-model="tzFilterCards" placeholder="Enter part of the city or timezone name to narrow list...">	
+	</div>			
+	<hr class="tzSeparatorLight">	
+    <div class="row">
+    	<!-- List of Selected TimeZones -->
+		<div>
+    		<div ng-repeat="okTimeZone in okTimeZones | filter:tzFilterCards track by $index">
+				<div class="tzCardWrapper col-md-4">	
+					<!--button title="Click to Delete" type="button" class="tzCardRemove close" ng-click="tzRemove($index)" aria-label="Remove">×</button-->					
+					<div class="tzCardID text-muted">{{okTimeZone.id}}</div>
+					<div class="modal-content tzCard">
+						<div time-zone-card="okTimeZone"></div>
+						<div class="modal-footer">
+				        	<button type="button" class="btn btn-primary" ng-click="tzUpdate($index)" title="Send Changes">
+				        		Update
+				        	</button>
+				        	<button type="button" class="btn btn-danger" ng-click="tzRemove($index)" title="Remove from List">
+				        		Delete
+				        	</button>
+				      	</div>
+				    </div>
+				</div>			  
+			</div>
+		</div>
+    </div>
+	
+
+  
+

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html lang="en" ng-app="timeZonesApp" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="en" ng-app="timeZonesApp" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="en" ng-app="timeZonesApp" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en" ng-app="timeZonesApp" class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>TimeZones App</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="stylesheet" href="css/app.css">    
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" />
+  
+  <!--link rel="stylesheet" href="//bootswatch.com/lumen/bootstrap.min.css" /-->
+
+  <script src="//code.jquery.com/jquery-2.0.3.min.js"></script>
+  <script src="//code.angularjs.org/1.2.20/angular.js"></script>
+  <script src="//code.angularjs.org/1.2.20/angular-route.js"></script>
+  <script src="//code.angularjs.org/1.2.20/angular-resource.js"></script>
+  <script src="//code.angularjs.org/1.2.13/angular-cookies.js"></script>    
+
+  <script src="js/app.js"></script>
+  <script src="js/controllers.js"></script>
+  <script src="js/filters.js"></script>
+  <script src="js/services.js"></script>
+
+  <!--script src="js/bootstrap/bootstrap.min.js"></script-->
+  
+
+  <link href="js/xeditable/xeditable.css" rel="stylesheet">
+  <script src="js/xeditable/xeditable.min.js"></script>
+
+  <link href="js/toastr/toastr.css" rel="stylesheet" type="text/css" />
+  <script src="js/toastr/toastr.js"></script>
+
+  <!-- Firebase -->
+  <script src="https://cdn.firebase.com/js/client/2.2.5/firebase.js"></script>
+  <!-- AngularFire -->
+  <script src="https://cdn.firebase.com/libs/angularfire/1.1.1/angularfire.min.js"></script>
+
+</head>
+<body>
+  <!--[if lt IE 7]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+  <![endif]-->
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+          <span class="navbar-brand">Timezones App</span>                     
+        </div>   
+        <div id="navbar" class="navbar-collapse collapse">     
+          <div class="navbar-form navbar-right" style>
+              <span style="color: #FFF; padding-right: 1em;" ng-hide="!globals.currentUser">{{globals.currentUser.name}}</span>
+              <a href="#/login" ng-hide="globals.currentUser" class="btn btn-primary">Login</a>
+              <a href="#/register" ng-hide="globals.currentUser" class="btn btn-primary">Register</a>
+              <a href="#/login" ng-click="globals.currentUser = {};" ng-hide="!globals.currentUser" class="btn btn-danger">Logout</a>
+          </div>
+        </div>
+    </div>
+  </nav>
+
+    <div class="jumbotron">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">                
+                <div ng-view></div>
+            </div>
+          </div>
+        </div>
+    </div>
+  
+</body>
+</html>

@@ -1,0 +1,103 @@
+value;abbr;offset;isdst;text
+Dateline Standard Time;DST;-12;false;(UTC-12:00) International Date Line West
+UTC-11;U;-11;false;(UTC-11:00) Coordinated Universal Time-11
+Hawaiian Standard Time;HST;-10;false;(UTC-10:00) Hawaii
+Alaskan Standard Time;AKDT;-8;true;(UTC-09:00) Alaska
+Pacific Standard Time (Mexico);PDT;-7;true;(UTC-08:00) Baja California
+Pacific Standard Time;PDT;-7;true;(UTC-08:00) Pacific Time (US & Canada)
+US Mountain Standard Time;UMST;-7;false;(UTC-07:00) Arizona
+Mountain Standard Time (Mexico);MDT;-6;true;(UTC-07:00) Chihuahua, La Paz, Mazatlan
+Mountain Standard Time;MDT;-6;true;(UTC-07:00) Mountain Time (US & Canada)
+Central America Standard Time;CAST;-6;false;(UTC-06:00) Central America
+Central Standard Time;CDT;-5;true;(UTC-06:00) Central Time (US & Canada)
+Central Standard Time (Mexico);CDT;-5;true;(UTC-06:00) Guadalajara, Mexico City, Monterrey
+Canada Central Standard Time;CCST;-6;false;(UTC-06:00) Saskatchewan
+SA Pacific Standard Time;SPST;-5;false;(UTC-05:00) Bogota, Lima, Quito
+Eastern Standard Time;EDT;-4;true;(UTC-05:00) Eastern Time (US & Canada)
+US Eastern Standard Time;UEDT;-4;true;(UTC-05:00) Indiana (East)
+Venezuela Standard Time;VST;-4.5;false;(UTC-04:30) Caracas
+Paraguay Standard Time;PST;-4;false;(UTC-04:00) Asuncion
+Atlantic Standard Time;ADT;-3;true;(UTC-04:00) Atlantic Time (Canada)
+Central Brazilian Standard Time;CBST;-4;false;(UTC-04:00) Cuiaba
+SA Western Standard Time;SWST;-4;false;(UTC-04:00) Georgetown, La Paz, Manaus, San Juan
+Pacific SA Standard Time;PSST;-4;false;(UTC-04:00) Santiago
+Newfoundland Standard Time;NDT;-2.5;true;(UTC-03:30) Newfoundland
+E. South America Standard Time;ESAST;-3;false;(UTC-03:00) Brasilia
+Argentina Standard Time;AST;-3;false;(UTC-03:00) Buenos Aires
+SA Eastern Standard Time;SEST;-3;false;(UTC-03:00) Cayenne, Fortaleza
+Greenland Standard Time;GDT;-2;true;(UTC-03:00) Greenland
+Montevideo Standard Time;MST;-3;false;(UTC-03:00) Montevideo
+Bahia Standard Time;BST;-3;false;(UTC-03:00) Salvador
+UTC-02;U;-2;false;(UTC-02:00) Coordinated Universal Time-02
+Mid-Atlantic Standard Time;MDT;-1;true;(UTC-02:00) Mid-Atlantic - Old
+Azores Standard Time;ADT;0;true;(UTC-01:00) Azores
+Cape Verde Standard Time;CVST;-1;false;(UTC-01:00) Cape Verde Is.
+Morocco Standard Time;MDT;1;true;(UTC) Casablanca
+UTC;CUT;0;false;(UTC) Coordinated Universal Time
+GMT Standard Time;GDT;1;true;(UTC) Dublin, Edinburgh, Lisbon, London
+Greenwich Standard Time;GST;0;false;(UTC) Monrovia, Reykjavik
+W. Europe Standard Time;WEDT;2;true;(UTC+01:00) Amsterdam, Berlin, Bern, Rome, Stockholm, Vienna
+Central Europe Standard Time;CEDT;2;true;(UTC+01:00) Belgrade, Bratislava, Budapest, Ljubljana, Prague
+Romance Standard Time;RDT;2;true;(UTC+01:00) Brussels, Copenhagen, Madrid, Paris
+Central European Standard Time;CEDT;2;true;(UTC+01:00) Sarajevo, Skopje, Warsaw, Zagreb
+W. Central Africa Standard Time;WCAST;1;false;(UTC+01:00) West Central Africa
+Namibia Standard Time;NST;1;false;(UTC+01:00) Windhoek
+GTB Standard Time;GDT;3;true;(UTC+02:00) Athens, Bucharest
+Middle East Standard Time;MEDT;3;true;(UTC+02:00) Beirut
+Egypt Standard Time;EST;2;false;(UTC+02:00) Cairo
+Syria Standard Time;SDT;3;true;(UTC+02:00) Damascus
+E. Europe Standard Time;EEDT;3;true;(UTC+02:00) E. Europe
+South Africa Standard Time;SAST;2;false;(UTC+02:00) Harare, Pretoria
+FLE Standard Time;FDT;3;true;(UTC+02:00) Helsinki, Kyiv, Riga, Sofia, Tallinn, Vilnius
+Turkey Standard Time;TDT;3;true;(UTC+02:00) Istanbul
+Israel Standard Time;JDT;3;true;(UTC+02:00) Jerusalem
+Libya Standard Time;LST;2;false;(UTC+02:00) Tripoli
+Jordan Standard Time;JST;3;false;(UTC+03:00) Amman
+Arabic Standard Time;AST;3;false;(UTC+03:00) Baghdad
+Kaliningrad Standard Time;KST;3;false;(UTC+03:00) Kaliningrad, Minsk
+Arab Standard Time;AST;3;false;(UTC+03:00) Kuwait, Riyadh
+E. Africa Standard Time;EAST;3;false;(UTC+03:00) Nairobi
+Iran Standard Time;IDT;4.5;true;(UTC+03:30) Tehran
+Arabian Standard Time;AST;4;false;(UTC+04:00) Abu Dhabi, Muscat
+Azerbaijan Standard Time;ADT;5;true;(UTC+04:00) Baku
+Russian Standard Time;RST;4;false;(UTC+04:00) Moscow, St. Petersburg, Volgograd
+Mauritius Standard Time;MST;4;false;(UTC+04:00) Port Louis
+Georgian Standard Time;GST;4;false;(UTC+04:00) Tbilisi
+Caucasus Standard Time;CST;4;false;(UTC+04:00) Yerevan
+Afghanistan Standard Time;AST;4.5;false;(UTC+04:30) Kabul
+West Asia Standard Time;WAST;5;false;(UTC+05:00) Ashgabat, Tashkent
+Pakistan Standard Time;PST;5;false;(UTC+05:00) Islamabad, Karachi
+India Standard Time;IST;5.5;false;(UTC+05:30) Chennai, Kolkata, Mumbai, New Delhi
+Sri Lanka Standard Time;SLST;5.5;false;(UTC+05:30) Sri Jayawardenepura
+Nepal Standard Time;NST;5.75;false;(UTC+05:45) Kathmandu
+Central Asia Standard Time;CAST;6;false;(UTC+06:00) Astana
+Bangladesh Standard Time;BST;6;false;(UTC+06:00) Dhaka
+Ekaterinburg Standard Time;EST;6;false;(UTC+06:00) Ekaterinburg
+Myanmar Standard Time;MST;6.5;false;(UTC+06:30) Yangon (Rangoon)
+SE Asia Standard Time;SAST;7;false;(UTC+07:00) Bangkok, Hanoi, Jakarta
+N. Central Asia Standard Time;NCAST;7;false;(UTC+07:00) Novosibirsk
+China Standard Time;CST;8;false;(UTC+08:00) Beijing, Chongqing, Hong Kong, Urumqi
+North Asia Standard Time;NAST;8;false;(UTC+08:00) Krasnoyarsk
+Singapore Standard Time;MPST;8;false;(UTC+08:00) Kuala Lumpur, Singapore
+W. Australia Standard Time;WAST;8;false;(UTC+08:00) Perth
+Taipei Standard Time;TST;8;false;(UTC+08:00) Taipei
+Ulaanbaatar Standard Time;UST;8;false;(UTC+08:00) Ulaanbaatar
+North Asia East Standard Time;NAEST;9;false;(UTC+09:00) Irkutsk
+Tokyo Standard Time;TST;9;false;(UTC+09:00) Osaka, Sapporo, Tokyo
+Korea Standard Time;KST;9;false;(UTC+09:00) Seoul
+Cen. Australia Standard Time;CAST;9.5;false;(UTC+09:30) Adelaide
+AUS Central Standard Time;ACST;9.5;false;(UTC+09:30) Darwin
+E. Australia Standard Time;EAST;10;false;(UTC+10:00) Brisbane
+AUS Eastern Standard Time;AEST;10;false;(UTC+10:00) Canberra, Melbourne, Sydney
+West Pacific Standard Time;WPST;10;false;(UTC+10:00) Guam, Port Moresby
+Tasmania Standard Time;TST;10;false;(UTC+10:00) Hobart
+Yakutsk Standard Time;YST;10;false;(UTC+10:00) Yakutsk
+Central Pacific Standard Time;CPST;11;false;(UTC+11:00) Solomon Is., New Caledonia
+Vladivostok Standard Time;VST;11;false;(UTC+11:00) Vladivostok
+New Zealand Standard Time;NZST;12;false;(UTC+12:00) Auckland, Wellington
+UTC+12;U;12;false;(UTC+12:00) Coordinated Universal Time+12
+Fiji Standard Time;FST;12;false;(UTC+12:00) Fiji
+Magadan Standard Time;MST;12;false;(UTC+12:00) Magadan
+Kamchatka Standard Time;KDT;13;true;(UTC+12:00) Petropavlovsk-Kamchatsky - Old
+Tonga Standard Time;TST;13;false;(UTC+13:00) Nuku'alofa
+Samoa Standard Time;SST;13;false;(UTC+13:00) Samoa
